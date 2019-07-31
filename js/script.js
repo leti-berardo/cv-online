@@ -5,7 +5,7 @@ document.getElementById("about-me").addEventListener("click", moveAboutMe);
 // document.getElementById("cursos-autodidactas").addEventListener("click", moveCursosAuto);
 
 function moveAboutMe() {
-    let aboutMe = document.getElementByClassName("active");
+    let aboutMe = document.getElementsByClassName("active");
     let inactive = document.getElementsByClassName("inactive");
     $(aboutMe).show();
     $(inactive).hide();
