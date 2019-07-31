@@ -45,6 +45,13 @@ ul#redes-sociales {
     align-content: center;
 }
 
+ul#redes-sociales li img {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 10px solid #516163; 
+}
+
 ul#redes-sociales img:hover {
     border-radius: 200px 200px 200px 200px;
     -moz-border-radius: 200px 200px 200px 200px;
