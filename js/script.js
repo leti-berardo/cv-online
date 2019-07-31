@@ -5,9 +5,6 @@ document.getElementById("about-me").addEventListener("click", moveAboutMe);
 // document.getElementById("cursos-autodidactas").addEventListener("click", moveCursosAuto);
 
 function moveAboutMe() {
-    let aboutMe = document.getElementsByClassName("active");
-    let inactive = document.getElementsByClassName("inactive");
-    $(aboutMe).show();
-    $(inactive).hide();
+    $('#main-content section').hide();
+    $('#about-me-section').show();
 };
-
