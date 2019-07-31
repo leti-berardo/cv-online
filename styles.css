@@ -1,0 +1,125 @@
+h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h4 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+li {
+    font-family: 'PT Sans', sans-serif;
+    list-style: none;
+}
+
+header#left-panel {
+    float: left;
+    background-color: #516163;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img.avatar {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 10px solid  #CCE8E5;
+    padding-top: 20px;
+}
+
+ul#redes-sociales {
+    list-style: none;
+    padding-left: 0px;
+    align-content: center;
+}
+
+ul#redes-sociales img:hover {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 10px solid  #CCE8E5;
+    background-color: #CCE8E5;    
+}
+
+#redes-sociales li {
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+nav#nav {
+    padding: 0px;
+    text-align: right;
+}
+
+nav#nav li {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: -10px;
+    padding: 10px;
+    border-radius:30px 0px 0px 30px;
+    -moz-border-radius:30px 0px 0px 30px;
+    -webkit-border-radius:30px 0px 0px 30px;
+    background-color: #CCE8E5;
+}
+
+nav#nav li:hover {
+    border-radius:30px 0px 0px 30px;
+    -moz-border-radius:30px 0px 0px 30px;
+    -webkit-border-radius:30px 0px 0px 30px;
+    background-color: #CCE8E5;
+    -webkit-box-shadow: -11px 14px 9px -11px #000000;
+    -moz-box-shadow: -11px 14px 9px -11px #000000;
+    box-shadow: -11px 14px 9px -11px #000000;
+    margin-right: -10px;
+}
+
+div#main-content {
+    background-color: #CCE8E5;
+    margin-left: 200px;
+    padding: 50px;
+}
+
+div#main-content h2 img {
+    padding-right: 15px;
+    float: left;
+}
+
+div#main-content h3 img {
+    padding-right: 15px;
+    float: left;
+}
+
+div#main-content h4 img {
+    padding-right: 15px;
+    float: left;
+}
+
+div#main-content li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#main-content ul img {
+    padding-right: 10px;
+    float: left;
+}
+
+div#main-content ol img {
+    padding-right: 10px;
+    float: left;
+}
+
