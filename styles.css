@@ -36,6 +36,7 @@ img.avatar {
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
     border: 10px solid  #CCE8E5;
+    margin-top: 20px;
     padding-top: 20px;
 }
 
@@ -101,13 +102,34 @@ nav#nav li:hover {
 
 div#main-content {
     background-color: #CCE8E5;
+    min-height: 697px;
     margin-left: 200px;
     padding: 50px;
 }
 
-div#main-content h2 img {
+div#main-content h2 {
+    padding-left: 100px;
+    text-align: left;
+    font-size: 40px;
+}
+
+div#main-content img {
+    margin-top: -60px;
     padding-right: 15px;
     float: left;
+}
+
+div.secciones-logo {
+    float: left;
+    margin-top: -60px;
+}
+
+div.logo-educacion {
+    float: left;
+    margin-top: -51px;
+}
+div#main-content ul#lista-estudios div.icono-educacion {
+    margin-top: -30px;
 }
 
 div#main-content h3 img {
@@ -121,17 +143,27 @@ div#main-content h4 img {
 }
 
 div#main-content li {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 38px;
+    font-size: 25px;
+    margin-left: 25px;
 }
 
-div#main-content ul img {
-    padding-right: 10px;
+div#main-content ul.lista-estudios img {
     float: left;
+    margin-top: -90px;
+
 }
 
 div#main-content ol img {
     padding-right: 10px;
     float: left;
+}
+
+div#main-content .active {
+    display: block;
+}
+
+div#main-content .inactive {
+    display: none;
 }
 
