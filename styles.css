@@ -136,16 +136,6 @@ div#main-content div.logo-trabajos {
     margin-top: -30px;
 }
 
-div#main-content h3 img {
-    padding-right: 15px;
-    float: left;
-}
-
-div#main-content h4 img {
-    padding-right: 15px;
-    float: left;
-}
-
 div#main-content li {
     padding: 38px;
     font-size: 25px;
@@ -155,7 +145,30 @@ div#main-content li {
 div#main-content ul.lista-estudios img {
     float: left;
     margin-top: -90px;
+}
 
+div#main-content h3 {
+    padding-left: 60px;
+    font-size: 40px;
+}
+
+div#main-content h4 {
+    margin-top: -40px;
+    padding-left: 120px;
+    font-size: 35px;
+}
+
+div#main-content div.logo-skills img.logo-skills {
+    margin-top: -92px !important;
+}
+
+div#main-content div.logo-ingles img {
+    margin-top: -90px;
+    margin-left: 78px;
+}
+
+ul#oral-escrito li {
+    display: inline-block;
 }
 
 div#main-content ol img {
