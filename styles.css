@@ -186,6 +186,15 @@ div#main-content ol img {
     float: left;
 }
 
+div#main-content div.curso-online-logo img {
+    float: left;
+    margin-top: -80px;
+}
+
+ {
+    margin-top: -70px;
+}
+
 div#main-content .active {
     display: block;
 }
