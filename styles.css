@@ -91,10 +91,12 @@ nav#nav {
 
 nav#nav li {
     text-align: right;
+    font-weight: 700;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-right: -10px;
     padding: 10px;
+    border: 2px solid #51616300;
     border-radius:30px 0px 0px 30px;
     -moz-border-radius:30px 0px 0px 30px;
     -webkit-border-radius:30px 0px 0px 30px;
@@ -102,19 +104,13 @@ nav#nav li {
     cursor: pointer;
 }
 
-nav#nav ol a.inside-link {
-    color: #000000;
-    text-decoration: none;
-}
-
 nav#nav li:hover {
+    border: 2px solid #000000;
+    border-right: none;
     border-radius:30px 0px 0px 30px;
     -moz-border-radius:30px 0px 0px 30px;
     -webkit-border-radius:30px 0px 0px 30px;
     background-color: #CCE8E5;
-    -webkit-box-shadow: -11px 14px 9px -11px #000000;
-    -moz-box-shadow: -11px 14px 9px -11px #000000;
-    box-shadow: -11px 14px 9px -11px #000000;
     margin-right: -10px;
 }
 
@@ -123,7 +119,7 @@ div#main-content {
     height: 100%;
     min-height: 697px;
     margin-left: 200px;
-    padding: 50px;
+    padding: 50px 50px 0px 50px;
 }
 
 div#main-content h2 {
@@ -141,6 +137,11 @@ div#main-content img {
 div.secciones-logo {
     float: left;
     margin-top: -60px;
+}
+
+p.texto-sobre-mi {
+    padding-left: 60px;
+    font-size: 20px;
 }
 
 div.logo-educacion {
