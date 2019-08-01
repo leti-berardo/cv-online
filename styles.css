@@ -23,8 +23,13 @@ li {
     list-style: none;
 }
 
+body {
+    width:100%;
+}
+
 header#left-panel {
     float: left;
+    height: 100%;
     background-color: #516163;
     text-align: center;
     padding-left: 10px;
@@ -38,6 +43,18 @@ img.avatar {
     border: 10px solid  #CCE8E5;
     margin-top: 20px;
     padding-top: 20px;
+}
+
+header#left-panel h4 {
+    margin-top: 0px;
+}
+
+header#left-panel h1 {
+    margin-top: -10px;
+}
+
+header#left-panel p {
+    margin-top: -18px;
 }
 
 ul#redes-sociales {
@@ -103,9 +120,10 @@ nav#nav li:hover {
 
 div#main-content {
     background-color: #CCE8E5;
+    height: 100%;
     min-height: 697px;
     margin-left: 200px;
-    padding: 50px 50px 68px 50px;
+    padding: 50px;
 }
 
 div#main-content h2 {
@@ -191,9 +209,11 @@ div#main-content div.curso-online-logo img {
     margin-top: -80px;
 }
 
- {
-    margin-top: -70px;
+div#main-content section#cursos-autodidactas li {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
+
 
 div#main-content .active {
     display: block;
