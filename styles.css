@@ -1,3 +1,5 @@
+/* EDICION GENERAL FUENTES */
+
 h1 {
     font-family: 'PT Sans Narrow', sans-serif;
 }
@@ -23,9 +25,7 @@ li {
     list-style: none;
 }
 
-body {
-    width:100%;
-}
+/* PANEL IZQUIERDO CON INFO Y MENU DE NAVEGACION */
 
 header#left-panel {
     float: left;
@@ -34,12 +34,11 @@ header#left-panel {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    position: fixed;
 }
 
 img.avatar {
     border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
     border: 10px solid  #CCE8E5;
     margin-top: 20px;
     padding-top: 20px;
@@ -47,35 +46,24 @@ img.avatar {
 
 header#left-panel h4 {
     margin-top: 0px;
+    font-size: 15px;
 }
 
 header#left-panel h1 {
     margin-top: -10px;
+    font-size: 30px;
 }
 
 header#left-panel p {
     margin-top: -18px;
+    font-size: 15px;
 }
 
 ul#redes-sociales {
     list-style: none;
     padding-left: 0px;
     align-content: center;
-}
-
-ul#redes-sociales li img {
-    border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    border: 10px solid #516163; 
-}
-
-ul#redes-sociales img:hover {
-    border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    border: 10px solid  #CCE8E5;
-    background-color: #CCE8E5;    
+    margin: -15px 0;
 }
 
 #redes-sociales li {
@@ -84,22 +72,33 @@ ul#redes-sociales img:hover {
     padding-right: 3px;
 }
 
+ul#redes-sociales img:hover {
+    border-radius: 50%;
+    border: 10px solid  #CCE8E5;
+    background-color: #CCE8E5;    
+}
+
+ul#redes-sociales li img {
+    border-radius: 50%;
+    border: 10px solid #516163; 
+}
+
 nav#nav {
     padding: 0px;
     text-align: right;
+    margin-top: 10px;
 }
 
 nav#nav li {
     text-align: right;
     font-weight: 700;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-right: -10px;
     padding: 10px;
     border: 2px solid #51616300;
+    border-right: none;
     border-radius:30px 0px 0px 30px;
-    -moz-border-radius:30px 0px 0px 30px;
-    -webkit-border-radius:30px 0px 0px 30px;
     background-color: #CCE8E5;
     cursor: pointer;
 }
@@ -108,16 +107,15 @@ nav#nav li:hover {
     border: 2px solid #000000;
     border-right: none;
     border-radius:30px 0px 0px 30px;
-    -moz-border-radius:30px 0px 0px 30px;
-    -webkit-border-radius:30px 0px 0px 30px;
     background-color: #CCE8E5;
     margin-right: -10px;
 }
 
+/* Informacion principal */
+
 div#main-content {
     background-color: #CCE8E5;
-    height: 100%;
-    min-height: 697px;
+    height: 100vh;
     margin-left: 200px;
     padding: 50px 50px 0px 50px;
 }
@@ -141,7 +139,7 @@ div.secciones-logo {
 
 p.texto-sobre-mi {
     padding-left: 60px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 div.logo-educacion {
