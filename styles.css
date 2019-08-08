@@ -142,27 +142,36 @@ p.texto-sobre-mi {
     font-size: 17px;
 }
 
+section#formacion-institucional-section {
+    height: 100%;
+}
+
 div.logo-educacion {
     float: left;
     margin-top: -51px;
 }
-div#main-content ul#lista-estudios div.icono-educacion {
-    margin-top: -30px;
+
+ul#lista-estudios {
+    list-style-image: url('./images/curso-online.png');
 }
 
-div#main-content div.logo-trabajos {
+/* div#main-content ul#lista-estudios div.icono-educacion {
     margin-top: -30px;
-}
+} */
 
 div#main-content li {
     padding: 38px;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 25px;
 }
 
-div#main-content ul.lista-estudios img {
+/* div#main-content ul.lista-estudios img {
     float: left;
     margin-top: -90px;
+} */
+
+div#main-content div.logo-trabajos {
+    margin-top: -30px;
 }
 
 div#main-content h3 {
