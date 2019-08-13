@@ -1,27 +1,11 @@
 /* EDICION GENERAL FUENTES */
 
-h1 {
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-
-h2 {
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-
-h3 {
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-
-h4 {
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-
-p {
-    font-family: 'PT Sans', sans-serif;
+h1, h2, h3, h4, p {
+    font-family: 'Inconsolata', monospace;
 }
 
 li {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
     list-style: none;
 }
 
@@ -30,7 +14,8 @@ li {
 header#left-panel {
     float: left;
     height: 100%;
-    background-color: #516163;
+    background-color: #333333;
+    color: whitesmoke;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -39,7 +24,7 @@ header#left-panel {
 
 img.avatar {
     border-radius: 200px 200px 200px 200px;
-    border: 10px solid  #CCE8E5;
+    border: 10px solid  #DBDBDB;
     margin-top: 20px;
     padding-top: 20px;
 }
@@ -74,13 +59,13 @@ ul#redes-sociales {
 
 ul#redes-sociales img:hover {
     border-radius: 50%;
-    border: 10px solid  #CCE8E5;
-    background-color: #CCE8E5;    
+    border: 10px solid  #DBDBDB;
+    background-color: #DBDBDB;    
 }
 
 ul#redes-sociales li img {
     border-radius: 50%;
-    border: 10px solid #516163; 
+    border: 10px solid #51616300; 
 }
 
 nav#nav {
@@ -99,22 +84,22 @@ nav#nav li {
     border: 2px solid #51616300;
     border-right: none;
     border-radius:30px 0px 0px 30px;
-    background-color: #CCE8E5;
+    background-color: #1e1e1e;
     cursor: pointer;
 }
 
 nav#nav li:hover {
-    border: 2px solid #000000;
+    border: 2px solid whitesmoke;
     border-right: none;
     border-radius:30px 0px 0px 30px;
-    background-color: #CCE8E5;
     margin-right: -10px;
 }
 
 /* Informacion principal */
 
 div#main-content {
-    background-color: #CCE8E5;
+    background-color: #1e1e1e;
+    color: whitesmoke;
     height: 100vh;
     margin-left: 200px;
     padding: 50px 50px 0px 50px;
@@ -151,24 +136,18 @@ div.logo-educacion {
     margin-top: -51px;
 }
 
-ul#lista-estudios {
-    list-style-image: url('./images/curso-online.png');
-}
+section#formacion-institucional-section li img {
+    float: none;
+    display: inline-block;
 
-/* div#main-content ul#lista-estudios div.icono-educacion {
-    margin-top: -30px;
-} */
+}
 
 div#main-content li {
     padding: 38px;
     font-size: 20px;
     margin-left: 25px;
+    align-items: center;
 }
-
-/* div#main-content ul.lista-estudios img {
-    float: left;
-    margin-top: -90px;
-} */
 
 div#main-content div.logo-trabajos {
     margin-top: -30px;
