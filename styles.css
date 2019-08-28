@@ -26,7 +26,6 @@ img.avatar {
     border-radius: 200px 200px 200px 200px;
     border: 10px solid  #DBDBDB;
     margin-top: 20px;
-    padding-top: 20px;
 }
 
 header#left-panel h4 {
@@ -163,16 +162,19 @@ div#main-content div.logo-trabajos {
 div#main-content h3 {
     padding-left: 60px;
     font-size: 40px;
+    margin: 20px;
 }
 
 div#main-content h4 {
     margin-top: -40px;
     padding-top: 6px;
     padding-left: 142px;
+    color: #51b400
 }
 
 div#main-content div.logo-skills img.logo-skills {
     margin-top: -92px !important;
+    
 }
 
 div#main-content div.logo-ingles img {
@@ -199,7 +201,8 @@ div#main-content ol img {
 
 div#main-content div.curso-online-logo img {
     float: left;
-    margin-top: -80px;
+    margin-top: -61px;
+    margin-left: 35px;
 }
 
 div#main-content section#cursos-autodidactas li {
